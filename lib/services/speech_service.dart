@@ -6,8 +6,8 @@ import 'package:speech_to_text/speech_to_text.dart';
 class SpeechService {
   final SpeechToText _speechToText = SpeechToText();
   final String _typecastApiUrl = "https://typecast.ai/api/speak";
-  final String _typecastApiKey =
-      "__pltXQdTBiaPRQssJCGwr7LHYgW5ABg8jrpymn6DYmVX";
+  // final String _typecastApiKey = "__pltXQdTBiaPRQssJCGwr7LHYgW5ABg8jrpymn6DYmVX";
+  final String _typecastApiKey = "your_typecast_API_key"; // can't commit secret
 
   /// Maximum number of polling attempts
   static const int _maxPollingAttempts = 10;
