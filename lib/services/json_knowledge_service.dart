@@ -62,7 +62,7 @@ class YuccaKnowledgeService {
   /// Queries OpenAI with JSON knowledge and a user question.
   static Future<String> fetchResponseWithKnowledge(
       Map<String, dynamic> knowledgeBase, String question) async {
-    // final apiKey = "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";
+    
 
     final apiKey = "your_openAI_API_key"; // create your own key, bc I can't commit secret to the github repo
 
