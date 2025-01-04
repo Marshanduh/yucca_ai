@@ -1,0 +1,1079 @@
+{
+    "nama_universitas": "Universitas Ciputra Surabaya",
+    "tahun_akademik": "2025/2026",
+    "kode_tiket_pendaftaran": "UC SURABAYA Admission Card 2025/2026 002101",
+    "persyaratan_formulir_online": 
+    {
+        "siapkan_nilai_rapor": "Nilai rapor kelas XI (semester 1 & 2)",
+        "lokasi_kode_voucher": "Bagian belakang"
+    },
+    "informasi_umum": 
+    {
+        "program_studi": 
+        [
+            "MED-RC Kedokteran",
+            "MED-IC Kedokteran (English)",
+            "DEM Kedokteran Gigi (Dental Medicine)",
+            "IBM-RC International Business Management - Regular Class",
+            "IBM-IC International Business Management - International Class",
+            "ACC Accounting",
+            "VCD Visual Communication Design",
+            "INA Interior Architecture",
+            "ARS Architecture & Property",
+            "FDB Fashion Design & Business",
+            "HTEB Hotel, Tourism & Event Business",
+            "CB Culinary Business",
+            "FTP Food Technology Program",
+            "IMT-AI Informatics - Artificial Intelligence",
+            "IMT-FSD Informatics - Full Stack Application",
+            "ISB-DS Information Systems for Business - Data Science",
+            "ISB-ES Information Systems for Business - Enterprise Systems",
+            "PSY Psychology",
+            "DPR Digital Public Relations",
+            "CDC Cinematography & Digital Content"
+        ],
+        "pembatasan_program_studi": 
+        {
+            "IMT-AI_IMT-FSD": "Wajib dari SMA IPA/SMK IT atau mengambil mata pelajaran matematika (untuk kurikulum merdeka)",
+            "MED-RC_DEM": "Wajib dari SMA IPA atau mengambil mata pelajaran biologi/kimia dan matematika/fisika (untuk kurikulum merdeka)",
+            "MED-IC": "Wajib dari SMA IPA atau mengambil mata pelajaran biologi, kimia, dan matematika/fisika (untuk kurikulum merdeka)",
+            "FTP": "Wajib mengambil mata pelajaran kimia (untuk kurikulum merdeka)"
+        },
+        "persyaratan_program_terpilih": 
+        [
+            {
+                "program_studi": 
+                [
+                    "IBM IC",
+                    "IBM RC",
+                    "MED IC",
+                    "MED RC",
+                    "DEM"
+                ],
+                "persyaratan": "Mengumpulkan sertifikat TOEFL/IELTS/English Score yang masih berlaku saat registrasi ulang"
+            },
+            {
+                "program_studi": 
+                [
+                    "INA",
+                    "ARS",
+                    "VCD",
+                    "FDB",
+                    "FTP"
+                ],
+                "persyaratan": "Mengumpulkan surat keterangan tidak buta warna atau hasil pemeriksaan dinyatakan tidak buta warna"
+            },
+            {
+                "program_studi": 
+                [
+                    "MED-RC",
+                    "MED-IC",
+                    "DEM"
+                ],
+                "persyaratan": "Mengumpulkan surat keterangan tidak buta warna, surat bebas NAPZA (Narkotika, Alkohol, Psikotropika & Zat Adiktif) dan surat kesehatan lainnya setelah dinyatakan diterima"
+            }
+        ]
+    },
+    "tata_cara_pendaftaran": 
+    [
+        "Melakukan pembelian voucher melalui:",
+        "Guru BK Sekolah kerjasama",
+        "Website enrollment.ciputra.ac.id",
+        "Download aplikasi UC Enrollment di Play Store/Apps Store",
+        "Tokopedia (keyword: Belajar & cari Logo Universitas Ciputra)",
+        "Mengisi formulir pendaftaran sesuai petunjuk yang ada, data-data isian sesuai data asli",
+        "Mengikuti rangkaian seleksi masuk PMB sesuai program yang dipilih",
+        "Calon mahasiswa yang mengikuti Ijazah paket C/homeschooling/PKBM/Pendidikan Non Formal wajib menandatangani surat pernyataan yang dapat diunduh saat melakukan pendaftaran dan mengumpulkan ijazah paket C paling lambat 31 Agustus 2025.",
+        "Voucher pendaftaran Universitas Ciputra Surabaya hanya dapat dipakai untuk mendaftar ke Universitas Ciputra Surabaya"
+    ],
+    "jalur_pendaftaran": 
+    [
+        {
+            "nama": "Jalur Reguler",
+            "persyaratan": 
+            [
+                "Berasal dari sekolah kerjasama dengan nilai rata rata rapor kelas XI < 72",
+                "Berasal dari sekolah non kerjasama"
+            ]
+        },
+        {
+            "nama": "Jalur Sekolah Kerjasama",
+            "persyaratan": 
+            [
+                "Siswa kelas XII dan alumni dari Sekolah kerjasama",
+                "Nilai rata rata rapor kelas XI ≥ 72"
+            ]
+        },
+        {
+            "nama": "Jalur Undangan Prestasi",
+            "persyaratan": 
+            [
+                "Berlaku untuk sekolah kerjasama terpilih",
+                "Informasi lebih lanjut, hubungi enrollment.ciputra.ac.id"
+            ]
+        }
+    ],
+    "alur_pendaftaran": 
+    [
+        "Membeli voucher pendaftaran online melalui:",
+        "Guru BK Sekolah kerjasama",
+        "Website enrollment.ciputra.ac.id",
+        "Download aplikasi UC Enrollment di Play Store/Apps Store",
+        "Tokopedia (keyword: Belajar & cari Logo Universitas Ciputra)",
+        "Siapkan nilai rapor kelas 1 semester 1-2 dan segera mendaftar online melalui website enrollment.ciputra.ac.id",
+        "Pastikan isi semua data dengan lengkap dan benar. Simpan no form & Password anda.",
+        "Mengikuti Tes Seleksi Penerimaan Mahasiswa Baru sesuai jadwal yang telah dipilih saat mendaftar",
+        "Pengumuman hasil tes seleksi penerimaan mahasiswa baru melalui email atau login ke website enrollment.ciputra.ac.id"
+    ],
+    "hasil_seleksi": 
+    {
+        "diterima": "Menyelesaikan kewajiban pembayaran sesuai jadwal, kemudian melakukan Registrasi ulang online",
+        "ditolak": "Melakukan pendaftaran kembali (Maksimal 2 kali di jurusan yang sama)"
+    },
+    "proses_seleksi": 
+    {
+        "tes_wajib": 
+        [
+            {
+                "jalur": "Jalur Reguler",
+                "tes": 
+                [
+                    "TPA",
+                    "Studi Kasus",
+                    "Interview / Group Discussion",
+                    "Seleksi Khusus"
+                ]
+            },
+            {
+                "jalur": "Jalur Sekolah Kerjasama",
+                "tes": 
+                [
+                    "Studi Kasus",
+                    "Interview / Group Discussion",
+                    "Seleksi Khusus"
+                ]
+            },
+            {
+                "jalur": "Jalur Undangan Prestasi",
+                "tes": 
+                [
+                    "Interview / Group Discussion",
+                    "Seleksi Khusus"
+                ]
+            }
+        ],
+        "skor_inggris": 
+        {
+            "untuk_program": 
+            [
+                "IBM-IC",
+                "MED-IC"
+            ],
+            "detail_tes": 
+            {
+                "lokasi_tes": "Universitas Ciputra",
+                "biaya": "Rp.279.000",
+                "tipe_tes": "Online",
+                "website_pendaftaran": "https://www.ciputra.ac.id/jadwal-test-pmb-2025/"
+            }
+        },
+        "tes_khusus": 
+        {
+            "VCD_FDB_ARS_INA": "Tes Gambar",
+            "FTP": "Tes Kemampuan Dasar & IPA Terpadu",
+            "MED-RC_DEM": "Tes Potensi Akademik, IPA Terpadu, Psikotes & Wawancara",
+            "MED-IC": "Tes Potensi Akademik, Test Equivalent to IBDP Science-HL or Cambridge A Level",
+            "IMT_ISB": "Tes Logika Matematika Dasar"
+        },
+        "tes_kemampuan_bahasa_inggris": 
+        {
+            "persyaratan": 
+            [
+                "Siswa tidak wajib mengikuti English Proficiency Test (EPT) di Universitas Ciputra apabila sudah memiliki sertifikat TOEFL/IELTS yang masih berlaku (maksimal 1 tahun dari tanggal penerbitan sertifikat) dari lembaga lain"
+            ],
+            "nilai_minimum": 
+            {
+                "IBM-IC": 
+                {
+                    "PBT": 500,
+                    "IBT": 61,
+                    "CBT": 173,
+                    "IELTS": 5,
+                    "EnglishScoreBritishCouncil": 400
+                },
+                "MED-IC": 
+                {
+                    "PBT": 550,
+                    "IELTS": 6,
+                    "TOEFL": 550
+                }
+            }
+        }
+    },
+    "pergantian_program_studi": 
+    {
+        "syarat": 
+        [
+            "Program studi yang dituju telah dipilih pada saat mengisi formulir pendaftaran, jika tidak maka calon mahasiswa wajib untuk membeli formulir pendaftaraan baru dan mengikuti persyaratan yang berlaku",
+            "Mengisi formulir pengajuan permohonan pergantian program studi yang dapat di download pada enrollment.ciputra.ac.id dan telah ditandatangani oleh orang tua siswa",
+            "Calon mahasiswa Jalur Undangan Prestasi tidak dapat mengajukan pergantian program studi setelah masa Jalur Undangan Prestasi (JUP) selesai",
+            "Pergantian program studi hanya bisa dilakukan 1 kali sebelum melakukan registrasi ulang dan Universitas Ciputra berhak untuk tidak mengijinkan pergantian program studi",
+            "Calon mahasiswa yang sudah melakukan registrasi ulang tidak dapat mengajukan pergantian program studi"
+        ]
+    },
+    "beasiswa": 
+    {
+        "informasi": "Informasi Beasiswa lengkap dapat dilihat pada ciputra.ac.id/informasi-beasiswa/"
+    },
+    "registrasi_ulang": 
+    {
+        "deskripsi": "Setelah dinyatakan diterima dan melunasi pembayaran, maka calon mahasiswa wajib melakukan registrasi ulang sesuai peraturan yang ada. Keterlambatan registrasi ulang dapat mengakibatkan pembatalan pendaftaran secara otomatis.",
+        "link": "Registrasi ulang dapat dilakukan pada ciputra.ac.id/registrasi-ulang/"
+    },
+    "fasilitas_cashback": 
+    {
+        "deskripsi": "Yayasan memberikan fasilitas 'Cash Back' kepada pemilik produk/properti grup Ciputra (keringanan DPP 10%) dengan syarat:",
+        "syarat": 
+        [
+            "Fotokopi bukti kepemilikan produk/properti grup Ciputra",
+            "Fotokopi Kartu Susunan Keluarga (KSK)"
+        ],
+        "ketentuan": 
+        [
+            "Fasilitas 'Cash Back' ini tidak berlaku secara akumulasi atas kondisi tersebut diatas dan bila telah menerima keringanan beasiswa",
+            "Fasilitas 'Cash Back' ini tidak berlaku untuk calon mahasiswa program Kedokteran (MED-RC & MED-IC) dan Dental Medicine (DEM)",
+            "Fasilitas 'Cash Back' akan dibayarkan melalui rekening Bank, setelah menjadi mahasiswa baru Universitas Ciputra dengan mengisi formulir yang disediakan di Student Service"
+        ]
+    },
+    "jadwal_orientasi_mahasiswa": 
+    {
+        "periode_1": 
+        {
+            "deskripsi": "Untuk semua calon mahasiswa yang melakukan registrasi ulang sebelum bulan Juni 2024 dapat mengikuti program orientasi pada Juli/Agustus 2024"
+        },
+        "periode_2": 
+        {
+            "deskripsi": "Untuk semua calon mahasiswa yang melakukan registrasi ulang mulai bulan Juni 2024 dan setelahnya, dapat mengikuti program orientasi pada periode berikutnya"
+        }
+    },
+    "prosedur_pembatalan": 
+    {
+        "pembatalan_otomatis": 
+        {
+            "deskripsi": "Pembatalan otomatis calon mahasiswa dapat terjadi untuk beberapa kondisi:",
+            "kondisi": 
+            [
+                "Jika dalam melakukan pengisian data formulir pendaftaran tidak sesuai keadaan sebenarnya",
+                "Tidak mengikuti ketentuan waktu registrasi ulang",
+                "Jika tidak hadir tes sesuai jadwal yang dipilih tanpa konfirmasi ke email pmb@ciputra.ac.id",
+                "Jika mahasiswa baru tidak hadir kuliah dalam waktu 2 minggu berturut-turut sejak perkuliahan efektif dimulai"
+            ]
+        },
+        "pengajuan_pembatalan": 
+        {
+            "deskripsi": "Berikut adalah ketentuan pengajuan pembatalan bagi calon mahasiswa:",
+            "kondisi": 
+            [
+                {
+                    "program": "Kedokteran (MED-RC & MED-IC) & Dental Medicine (DEM)",
+                    "pengembalian_biaya": "Tidak ada pengembalian biaya DPP, SPP, dan O-Week"
+                },
+                {
+                    "program": "Calon mahasiswa umum",
+                    "pengembalian_biaya": "DPP yang telah dibayarkan tidak dapat dikembalikan dengan alasan apapun. Biaya SPP & SKS dapat dikembalikan dengan persentase yang telah diatur, yaitu 25% dengan syarat mengajukan surat pengunduran diri yang ditandatangani oleh orangtua dan dikirimkan ke email: pmb@ciputra.ac.id"
+                },
+                {
+                    "program": "Calon mahasiswa yang tidak lulus SMA",
+                    "pengembalian_biaya": "DPP, SPP, dan SKS yang telah dibayarkan dapat dikembalikan dengan menunjukkan bukti berupa surat keterangan dari Kepala Sekolah"
+                },
+                {
+                    "program": "Calon mahasiswa jalur beasiswa",
+                    "pengembalian_biaya": "Tidak dapat mengajukan pengembalian biaya kuliah yang telah dibayarkan dengan alasan apapun"
+                },
+                {
+                    "program": "Calon mahasiswa dari Seleksi Nasional Berdasarkan Prestasi (SNBP)",
+                    "pengembalian_biaya": "DPP, SPP, dan SKS yang telah dibayarkan dapat dikembalikan dengan syarat mengajukan surat pembatalan sebagai mahasiswa Universitas Ciputra (ditandatangani orang tua), memberikan bukti penerimaan di SNBP, dan biaya akan dipotong Rp5.000.000,- dari jumlah yang sudah dibayarkan"
+                },
+                {
+                    "biaya": "Biaya Orientasi (ORI)",
+                    "pengembalian_biaya": "Tidak dapat dikembalikan apabila calon mahasiswa sudah melakukan registrasi ulang tahap pertama"
+                },
+                {
+                    "biaya": "Biaya yang telah dibayarkan",
+                    "pengembalian_biaya": "Tidak dapat dipindahkan ke pihak manapun atau ke tahun periode PMB selanjutnya"
+                }
+            ],
+            "batas_waktu": "Pengajuan pembatalan dapat dilakukan maksimal 1 bulan sebelum perkuliahan dimulai"
+        }
+    },
+    "biaya_kuliah": 
+    {
+        "deskripsi": "Meliputi:",
+        "komponen_biaya": 
+        [
+            {
+                "biaya": "DPP (Dana Pembangunan & Pengembangan)",
+                "keterangan": "Hanya dibayarkan 1x diawal"
+            },
+            {
+                "biaya": "SPP (Sumbangan Pembinaan Pendidikan)",
+                "keterangan": "Dibayarkan tiap semester"
+            },
+            {
+                "biaya": "SKS (Satuan Kredit Semester)",
+                "keterangan": "Dibayarkan tiap semester"
+            },
+            {
+                "biaya": "ORI (Orientasi mahasiswa & Jas Almamater)",
+                "keterangan": "Hanya dibayarkan 1x diawal"
+            },
+            {
+                "biaya": "Biaya lain-lain",
+                "keterangan": "Menyesuaikan tiap Jurusan masing-masing"
+            }
+        ],
+        "contoh_penghitungan_dpp": 
+        {
+            "deskripsi": "Contoh penghitungan biaya DPP setelah diskon diberikan:",
+            "contoh": "Apabila memilih IBM-RC dan melakukan Pelunasan pada 20 Januari 2025, maka BIAYA DPP AWAL IBM-RC POTONGAN BIAYA DPP pada 20 Januari 2025 = Rp 37.500.000 - Rp 15.000.000 = Rp 22.500.000"
+        },
+        "biaya_dpp": 
+        {
+            "jurusan": 
+            {
+                "ACC, DPR, CDC, VCD, INA, ARS, FTP, PSY, IMT-AI, IMT-FSD, ISB-DS, ISB-ES": 35000000,
+                "IBM RC, CB, HTEB": 37500000,
+                "IBM-IC, FDB": 40000000,
+                "DEM": 250000000,
+                "MED-RC, MED-IC": 340000000
+            },
+            "beasiswa": 
+            {
+                "deskripsi": "Dapatkan peluang beasiswa prestasi kedokteran hingga Rp225.000.000",
+                "informasi": "Informasi lebih lanjut email pmb@ciputra.ac.id"
+            },
+            "potongan_biaya_dpp": 
+            {
+                "20 JANUARI 2025": 15000000,
+                "20 FEBRUARI 2025": 12500000,
+                "20 MARET 2025": 10000000,
+                "20 APRIL 2025": 7500000,
+                "20 MEI 2025": 5000000,
+                "20 JUNI 2025": 2500000
+            },
+            "catatan": "Biaya kuliah jurusan CB sudah termasuk biaya tiket PP International Field Studies untuk ASIA, 6 set seragam, 10 pcs chef knives, dan safety shoes"
+        },
+        "biaya_spp": 
+        {
+            "deskripsi": "SPP berdasarkan Prodi",
+            "prodi_spp": 
+            [
+                {
+                    "prodi": "ACC, PSY, FTP, DPR",
+                    "sekolah_kerjasama": 10000000,
+                    "spp_reguler": 12000000
+                },
+                {
+                    "prodi": "CDC, ISB-DS, ISB-ES, IMT-AI, IMT-FSD, VCD, INA, ARS, HTB",
+                    "sekolah_kerjasama": 11000000,
+                    "spp_reguler": 13000000
+                },
+                {
+                    "prodi": "IBM RC, FDB",
+                    "sekolah_kerjasama": 16000000,
+                    "spp_reguler": 18000000
+                },
+                {
+                    "prodi": "IBM-IC, CB",
+                    "sekolah_kerjasama": 19500000,
+                    "spp_reguler": 21500000
+                },
+                {
+                    "prodi": "DEM",
+                    "sekolah_kerjasama": 30000000,
+                    "spp_reguler": 32000000
+                },
+                {
+                    "prodi": "MED - RC",
+                    "sekolah_kerjasama": 37500000,
+                    "spp_reguler": 39500000
+                },
+                {
+                    "prodi": "MED - IC",
+                    "sekolah_kerjasama": 40000000,
+                    "spp_reguler": 42000000
+                }
+            ]
+        },
+        "biaya_sks": 
+        {
+            "deskripsi": "Biaya SKS berdasarkan Prodi",
+            "prodi_sks": 
+            [
+                {
+                    "prodi": "ACC, DPR, CDC, PSY, FTP",
+                    "biaya_sks": 550000
+                },
+                {
+                    "prodi": "IMT-AI, IMT-FSD, ISB-DS, ISB-ES, HTB",
+                    "biaya_sks": 600000
+                },
+                {
+                    "prodi": "IBM-RC, VCD",
+                    "biaya_sks": 700000
+                },
+                {
+                    "prodi": "INA, ARS, FDB, CB",
+                    "biaya_sks": 750000
+                },
+                {
+                    "prodi": "IBM-IC",
+                    "biaya_sks": 800000
+                }
+            ]
+        },
+        "biaya_ori": 
+        {
+            "deskripsi": "Biaya untuk kegiatan O-Week (Orientasi Week) Perlengkapan dan Jas Almamater",
+            "biaya": 3000000
+        }
+    },
+    "judul": "ILUSTRASI BIAYA KULIAH",
+    "penjelasan": "Ilustrasi berdasarkan biaya pelunasan sebelum tanggal 20 Januari 2025, calon mahasiswa baru sudah mendapat potongan biaya DPP sebesar Rp. 15.000.000, dan masuk melalui jalur kerjasama. Biaya SKS terhitung 18 SKS setiap semesternya.",
+    "INTERNATIONAL_BUSINESS_MANAGEMENT_REGULAR_CLASS": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 7500000,
+        "BIAYA_SPP": 
+        [
+            16000000,
+            16000000,
+            16000000,
+            16000000,
+            16000000,
+            16000000,
+            16000000,
+            16000000
+        ],
+        "BIAYA_SKS": 
+        [
+            22800000,
+            22800000,
+            22800000,
+            22800000,
+            22800000,
+            22800000,
+            22800000,
+            22800000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            54100000,
+            28600000,
+            28600000,
+            28600000,
+            28600000,
+            28600000,
+            28600000,
+            28600000,
+            254300000
+        ]
+    },
+    "INTERNATIONAL_BUSINESS_MANAGEMENT_INTERNATIONAL_CLASS": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 10000000,
+        "BIAYA_SPP": 
+        [
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000
+        ],
+        "BIAYA_SKS": 
+        [
+            25920000,
+            25920000,
+            25920000,
+            25920000,
+            25920000,
+            25920000,
+            25920000,
+            25920000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            61900000,
+            33900000,
+            33900000,
+            33900000,
+            33900000,
+            33900000,
+            33900000,
+            33900000,
+            299200000
+        ]
+    },
+    "ACCOUNTING_FOOD_TECHNOLOGY_PSYCHOLOGY_DIGITAL_PUBLIC_RELATION": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 5000000,
+        "BIAYA_SPP": 
+        [
+            10000000,
+            10000000,
+            10000000,
+            10000000,
+            10000000,
+            10000000,
+            10000000,
+            10000000
+        ],
+        "BIAYA_SKS": 
+        [
+            17820000,
+            17820000,
+            17820000,
+            17820000,
+            17820000,
+            17820000,
+            17820000,
+            17820000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            42900000,
+            19900000,
+            19900000,
+            19900000,
+            19900000,
+            19900000,
+            19900000,
+            19900000,
+            182200000
+        ]
+    },
+    "INFORMATICS_ARTIFICIAL_INTELLIGENCE_FULL_STACK_APPLICATION_DEVELOPMENT_INFORMATION_SYSTEM_FOR_BUSINESS_DATA_SCIENCE_INFORMATION_SYSTEM_FOR_BUSINESS_ENTERPRISE_SYSTEMS": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 5000000,
+        "BIAYA_SPP": 
+        [
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000
+        ],
+        "BIAYA_SKS": 
+        [
+            19440000,
+            19440000,
+            19440000,
+            19440000,
+            19440000,
+            19440000,
+            19440000,
+            19440000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            44800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            197400000
+        ]
+    },
+    "HOTEL_TOURISM_EVENT_BUSINESS_HTEB": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 22500000,
+        "BIAYA_SPP": 
+        [
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000
+        ],
+        "BIAYA_SKS": 
+        [
+            10800000,
+            10800000,
+            10800000,
+            10800000,
+            10800000,
+            10800000,
+            10800000,
+            10800000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            47300000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            21800000,
+            199900000
+        ]
+    },
+    "CULINARY_BUSINESS_CB": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 22500000,
+        "BIAYA_SPP": 
+        [
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000,
+            19500000
+        ],
+        "BIAYA_SKS": 
+        [
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            58500000,
+            33000000,
+            33000000,
+            33000000,
+            33000000,
+            33000000,
+            33000000,
+            33000000,
+            289500000
+        ]
+    },
+    "INTERIOR_ARCHITECTURE_INA_ARCHITECTURE_PROPERTY_ARS": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 20000000,
+        "BIAYA_SPP": 
+        [
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000
+        ],
+        "BIAYA_SKS": 
+        [
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000,
+            13500000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            47500000,
+            24500000,
+            24500000,
+            24500000,
+            24500000,
+            24500000,
+            24500000,
+            24500000,
+            219000000
+        ]
+    },
+    "VISUAL_COMMUNICATION_DESIGN_VCD": 
+    {
+        "KATEGORI": 
+        [
+            "SEM 1",
+            "SEM 2",
+            "SEM 3",
+            "SEM 4",
+            "SEM 5",
+            "SEM 6",
+            "SEM 7",
+            "SEM 8",
+            "TOTAL"
+        ],
+        "BIAYA_DPP": 20000000,
+        "BIAYA_SPP": 
+        [
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000,
+            11000000
+        ],
+        "BIAYA_SKS": 
+        [
+            12600000,
+            12600000,
+            12600000,
+            12600000,
+            12600000,
+            12600000,
+            12600000,
+            12600000
+        ],
+        "BIAYA_ORI": 3000000,
+        "JUMLAH": 
+        [
+            46600000,
+            23600000,
+            23600000,
+            23600000,
+            23600000,
+            23600000,
+            23600000,
+            23600000,
+            211800000
+        ]
+    },
+    "FASHION DESIGN & BUSINESS (FDB)": 
+    {
+        "KATEGORI": 
+        {
+            "SEM 1": 57500000,
+            "SEM 2": 29500000,
+            "SEM 3": 29500000,
+            "SEM 4": 29500000,
+            "SEM 5": 29500000,
+            "SEM 6": 29500000,
+            "SEM 7": 29500000,
+            "SEM 8": 29500000,
+            "TOTAL": 264000000
+        },
+        "BIAYA": 
+        {
+            "DPP": 25000000,
+            "SPP": 16000000,
+            "SKS": 13500000,
+            "ORI": 3000000
+        }
+    },
+    "CINEMATOGRAPHY & DIGITAL CONTENT (CDC)": 
+    {
+        "KATEGORI": 
+        {
+            "SEM 1": 43900000,
+            "SEM 2": 20900000,
+            "SEM 3": 20900000,
+            "SEM 4": 20900000,
+            "SEM 5": 20900000,
+            "SEM 6": 20900000,
+            "SEM 7": 20900000,
+            "SEM 8": 20900000,
+            "TOTAL": 190200000
+        },
+        "BIAYA": 
+        {
+            "DPP": 20000000,
+            "SPP": 11000000,
+            "SKS": 9900000,
+            "ORI": 3000000
+        }
+    },
+    "DENTAL MEDICINE (DEM)": 
+    {
+        "KATEGORI": 
+        {
+            "SEM 1": 268000000,
+            "SEM 2": 30000000,
+            "SEM 3": 30000000,
+            "SEM 4": 30000000,
+            "SEM 5": 30000000,
+            "SEM 6": 30000000,
+            "SEM 7": 30000000,
+            "SEM 8": 30000000,
+            "TOTAL": 478000000
+        },
+        "BIAYA": 
+        {
+            "DPP": 235000000,
+            "SPP": 30000000,
+            "ORI": 3000000
+        }
+    },
+    "KEDOKTERAN (MED-RC)": 
+    {
+        "KATEGORI": 
+        {
+            "SEM 1": 365500000,
+            "SEM 2": 37500000,
+            "SEM 3": 37500000,
+            "SEM 4": 37500000,
+            "SEM 5": 37500000,
+            "SEM 6": 37500000,
+            "SEM 7": 37500000,
+            "SEM 8": 37500000,
+            "TOTAL": 628000000
+        },
+        "BIAYA": 
+        {
+            "DPP": 325000000,
+            "SPP": 37500000,
+            "ORI": 3000000
+        }
+    },
+    "DENTAL MEDICINE (DEM) 2": 
+    {
+        "KATEGORI": 
+        {
+            "SEM 1": 368000000,
+            "SEM 2": 40000000,
+            "SEM 3": 40000000,
+            "SEM 4": 40000000,
+            "SEM 5": 40000000,
+            "SEM 6": 40000000,
+            "SEM 7": 40000000,
+            "SEM 8": 40000000,
+            "TOTAL": 648000000
+        },
+        "BIAYA": 
+        {
+            "DPP": 325000000,
+            "SPP": 40000000,
+            "ORI": 3000000
+        }
+    },
+    "Biaya_lainnya": "Perkiraan Biaya Lain-Lain",
+    "deskripsi": "Biaya lain-lain merupakan biaya yang mungkin akan muncul diluar biaya SPP dan SKS per semester. Untuk biaya proyek digunakan mahasiswa sendiri dalam menjalankan kegiatan maupun proyek bisnisnya, segala bentuk keuntungan dari proyek bisnis yang dijalankan adalah sepenuhnya milik mahasiswa. Mahasiswa UC dapat secara kreatif menjalankan proyek tersebut dengan tanpa modal. Tabel ini berupa perkiraan, lebih atau kurangnya tergantung dari mahasiswa itu sendiri.",
+    "programs": 
+    {
+        "IBM-RC": 
+        {
+            "Sem 1": 
+            {
+                "Investasi usaha (start-up business)": "Rp0 s/d Rp2.000.000",
+                "Biaya International Exposure": "Rp6.000.000",
+                "Living & food allowance (bila internship di luar kota)": "Rp2.000.000 s/d Rp5.000.000",
+                "Biaya Ujian Sertifikasi Profesi (eksternal)": "Rp0 s/d Rp5.800.000"
+            },
+            "Sem 2": 
+            {
+                "IBM-IC English Preparation": "Rp400.000",
+                "International Immersion Program": "Rp9.000.000"
+            },
+            "Sem 3": 
+            {
+                "International Immersion Program": "Rp9.000.000",
+                "International Certification (CIPE & CLS)": "ACC Program Rp9.000.000"
+            },
+            "Sem 4": 
+            {
+                "Pelatihan Brevet Pajak Terpadu A dan B": "Rp3.500.000 (Opsional) + Rp5.000.000"
+            },
+            "Sem 5": 
+            {
+                "VCD Biaya Outdoor Class": "Rp500.000",
+                "Studi Ekskursi": "12jt - 22jt",
+                "Living & food allowance (bila internship di luar kota)": "Rp2jt - Rp5jt"
+            },
+            "Sem 6": 
+            {
+                "Rupiah Biaya produksi tugas akhir": "±Rp5jt",
+                "Biaya pengembangan diri": "Rp500.000 (Tentative)"
+            },
+            "Sem 7": 
+            {
+                "INA&ARS": "Rp5.000.000"
+            },
+            "Sem 8": 
+            {
+                "Peralatan gambar manual; Biaya praktek studio design fundamental": "Rp5.000.000 - Rp7.500.000",
+                "Biaya produk 2D dan 3D MK CSD": "Opsi pembelian/upgrade komputer Rp5.000.000 - Rp7.500.000",
+                "Biaya produk 2D dan 3D MK Dwelling Design": "Prototype MK Enrichment dan Digital Tectonics"
+            }
+        },
+        "FDB": 
+        {
+            "Sem 1": 
+            {
+                "Biaya National Field Trip": "Rp4.000.000 s/d Rp5.000.000"
+            },
+            "Sem 2": 
+            {
+                "Biaya Sertifikasi": "Rp500.000"
+            },
+            "Sem 8": 
+            {
+                "Graduation Show & Exhibition": "±Rp5.000.000",
+                "Biaya International Field Trip": "Rp10.000.000 s/d Rp20.000.000 (optional)"
+            }
+        },
+        "HTB": 
+        {
+            "Bali Hotel dan Creative Tourism Visit": "Rp6.000.000.000",
+            "National Field Trip (Java Overland)": "Rp8.000.000",
+            "International Field Trip": "Rp15.000.000 s/d Rp45.000.000"
+        },
+        "FTP": 
+        {
+            "Biaya Pembuatan Produk": "Rp500.000 s/d Rp1.000.000",
+            "Biaya Studi Ekskursi": "Rp5.000.000 s/d Rp15.000.000",
+            "Biaya Project": "Rp1.000.000 s/d Rp5.000.000",
+            "Biaya Sertifikasi": "Rp1.000.000",
+            "Living & food allowance (bila internship di luar kota)": "Rp2.000.000 - Rp5.000.000",
+            "Biaya Tugas Akhir": "Rp5.000.000 s/d Rp8.000.000"
+        },
+        "IMT-AI": 
+        {
+            "Biaya Studi Ekskursi": "Rp8.000.000 s/d Rp17.000.000 (tentative)"
+        },
+        "PSY": 
+        {
+            "Studi Ekskursi": "Rp5.000.000 - Rp10.000.000",
+            "Sertifikasi LSP BNSP": "Rp1.000.000 - Rp2.000.000"
+        },
+        "DPR & CDC": 
+        {
+            "Biaya studi ekskursi (Nasional/Internasional)": "Rp6.000.000 s/d Rp12.000.000",
+            "Biaya Sertifikasi LSP BNSP": "Rp300.000 s/d Rp500.000"
+        },
+        "MED-RC & MED-IC": 
+        {
+            "Biaya Field Trip": "±Rp1.000.000",
+            "Biaya proposal & skripsi": "Rp1.000.000 s/d Rp5.000.000"
+        },
+        "DEM": 
+        {
+            "Biaya proposal dan skripsi": "Rp3.000.000 s/d Rp5.000.000",
+            "Alat kedokteran gigi pribadi": "Tidak ada harga",
+            "Baju tambahan saat Praktikum": "Rp200.000/set",
+            "Baju tambahan saat tahap Profesi Dokter Gigi": "Rp200.000/set",
+            "Biaya persiapan intensif UKMP2DG": "Rp10.000.000 estimasi biaya saat ini",
+            "Biaya ujian try out uji kompetensi": "Rp400.000/ujian",
+            "Biaya UKMP2DG (CBT & OSCE)": "Rp1.000.000",
+            "Biaya Screening dan Vaksinasi Hepatitis B": "Tidak ada harga"
+        },
+        "Fashion_Design_Business": 
+        {
+            "Biaya lain-lain diluar dari biaya pembuatan fashion design project": "Tidak ada harga"
+        },
+        "TOEFL": 
+        {
+            "Semua jurusan wajib memiliki sertifikat TOEFL": "Rp500.000"
+        }
+    },
+    "alamat": "CitraLand CBD Boulevard, Surabaya, Jawa Timur 60219",
+    "call_center": "082 234 941 824"
+}

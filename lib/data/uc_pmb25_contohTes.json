@@ -1,0 +1,192 @@
+{
+    "programs": 
+    {
+        "MED-RC": "Kedokteran",
+        "MED-IC": "Kedokteran (English)",
+        "DEM": "Kedokteran Gigi (Dental Medicine)",
+        "IBM-RC": "International Business Management - Regular Class",
+        "IBM-IC": "International Business Management - International Class",
+        "ACC": "Accounting",
+        "VCD": "Visual Communication Design",
+        "INA": "Interior Architecture",
+        "ARS": "Architecture & Property",
+        "FDB": "Fashion Design & Business",
+        "HTEB": "Hotel, Tourism & Event Business",
+        "CB": "Culinary Business",
+        "FTP": "Food Technology Program",
+        "IMT-AI": "Informatics - Artificial Intelligence",
+        "IMT-FSD": "Informatics - Full Stack Application",
+        "ISB-DS": "Information Systems for Business - Data Science",
+        "ISB-ES": "Information Systems for Business - Enterprise Systems",
+        "PSY": "Psychology",
+        "DPR": "Digital Public Relations",
+        "CDC": "Cinematography & Digital Content"
+    },
+    "test_examples": 
+    {
+        "FDB": 
+        {
+            "question": "Do clothing design by using this body figure template, the clothing might be casual, semi formal or formal wear. Using 0.5 mm mechanical pencil or HB wood pencil to trace the template on clean, available A4 size paper, apply your ready clothing design on this figure with black and white shading by using 2B wood pencil or pencil color. Your available time is 30 minutes."
+        },
+        "VCD": 
+        {
+            "question": "Anda berkunjung ke sebuah cafe yang nyaman, bernama 'Caffeine Rush'. Café itu banyak dikunjungi oleh anak muda (khususnya pelajar SMA seusia anda). Cafe itu menggunakan jenis cangkir seperti cardboard cup. Pemilik Café meminta anda untuk mendesain tampilan grafis pada cangkir agar terlihat lebih menarik dan mencerminkan 'jiwa Caffeine Rush'. Gunakan pensil anda untuk menambahkan elemen grafis pada cangkir tersebut dan menjadikannya lebih menarik, waktu anda 30 menit. Selamat mengerjakan!"
+        },
+        "INA": 
+        {
+            "question_1": 
+            {
+                "description": "Bayangkan Anda adalah sebuah topeng yang terpasang tepat ditengah salah satu dinding sebuah ruang berukuran kira-kira 3x3 meter, tinggi kira-kira 3 meter, yang bertempat di pinggir pantai. Pada dinding di hadapan Anda, pada ketinggian 1,5 meter dari lantai, ada sebuah jendela yang luasnya = 0,5 luas dinding, menghadap ke arah laut. Pada dinding di sisi kiri Anda ada sebuah pintu sebagai jalan masuk keluar ruang. Dinding di sisi kanan Anda, terbuat dari papan kayu. Lantai terbuat dari batu alam. Ditengah ruang ada sebuah bak berendam berdiameter 1 meter dan tingginya 1/5 tinggi ruang. Disudut kiri atas langit-langit dekat jendela, sebuah lampu gantung berbentuk kerucut, menyala menerangi ruang. Disudut kanan lantai dekat jendela, ada sebuah bak tanaman berpenampang 1/4 lingkaran. Sebuah bola basket kotor, tertinggal di bak berendam. Kini, Anda diminta menggambar ruang dalam cerita diatas, agar orang yang melihat gambar Anda mampu membayangkan suasana persis dengan yang Anda lihat."
+            },
+            "question_2": 
+            {
+                "description": "Di sebuah taman di kawasan hunian modern, terdapat sebuah sculpture yang terletak di sudut jalan utama. Batas lahan di sebelah kiri adalah bangunan club house. Batas lahan di sebelah kanan adalah rumah2 warga. Di seberang taman tersebut terdapat sebuah danau. Sculpture tersebut terdiri dari bentuk-bentuk geometris balok, prisma segitiga, dan 1/2 kerucut. Perbandingan ukuran dari ketiga bentuk geometris tersebut ditentukan sebagai berikut: - Perbandingan p x l x t balok= 1:1:3 - Tinggi prisma segitiga sama dengan 1/2 tinggi balok - Alas prisma segitiga dan alas balok, memiliki sisi yang sama panjangnya - Tinggi kerucut tiga kali tinggi balok - Diameter alas kerucut sama dengan tiga kali panjang sisi pendek balok. Anda diminta menggambar komposisi sculpture dan suasana di sekitarnya. Anda bebas menentukan komposisi peletakan masing-masing bentuk geometri tersebut."
+            },
+            "question_3": 
+            {
+                "description": "Anda diminta menuliskan cerita mengapa Anda memilih Program Studi Interior Architecture Universitas Ciputra, dan apa yang ingin Anda capai setelah lulus."
+            }
+        },
+        "IMT": 
+        {
+            "question_1": 
+            {
+                "description": "Beaver Bert has a long strip of coloured paper for a party. The strip has three different colours (yellow, red, blue) in a regularly repeating pattern. Bert's friend, James, has cut out a section of the paper, as shown in the diagram below. James says that he will give back the missing piece of paper if Bert can correctly guess the size of the piece cut out.",
+                "options": 
+                [
+                    "a. 32",
+                    "b. 31",
+                    "c. 33",
+                    "d. 34"
+                ]
+            },
+            "question_2": 
+            {
+                "description": "The green circles with letters represent the trees and the brown lines are paths. Note that some letters are used to label more than one tree. A walk from tree F to tree B will be described as F D E C A B. Last Sunday two families walked in the park. The Wide family's walk was BA AACE DE ED A. The Gide family's walk was F D C DAE ADE DA. Let's assume that both families started their walk at the same time and walking from one tree to another tree takes the same time. How many times did the two families meet at a tree?",
+                "options": 
+                [
+                    "a. They never met during their walks last Sunday",
+                    "b. Twice",
+                    "c. Once",
+                    "d. Three Times"
+                ]
+            }
+        },
+        "ISB": 
+        {
+            "question_1": 
+            {
+                "description": "Rata-rata 6 ulangan matematika yang diperoleh Dono adalah 85, jika nilai terendahnya tidak diikutkan, maka rata-ratanya menjadi 88, berapakah nilai terendah Dono?",
+                "options": 
+                [
+                    "a. 72",
+                    "b. 70",
+                    "c. 75",
+                    "d. 73"
+                ]
+            },
+            "question_2": 
+            {
+                "description": "Berikut adalah tarif sebuah taksi: Rp 2000 untuk 1/2 kilometer pertama. Rp 450 tambahan untuk setiap 1/4 kilometer berikutnya. Rp 250 per menit untuk menunggu. Tambahan Rp 1000 jika beroperasi setelah jam 18.00, dan tambahan Rp 1000 untuk setiap tambahan penumpang. Pak Robin menggunakan taksi dari bandara ke hotel di tengah kota jam 20.00. Jalanan macet selama 10 menit, namun selanjutnya berjalan lancar. Pak Robin memberikan Rp 23.500, termasuk tips sebesar Rp3600. Berapa jarak hotel dari bandara?",
+                "options": 
+                [
+                    "a. 7,8 km",
+                    "b. 8 km",
+                    "c. 8,5 km",
+                    "d. 8,8 km"
+                ]
+            }
+        },
+        "TPA": 
+        {
+            "verbal": 
+            {
+                "questions": 
+                [
+                    {
+                        "question": "Kusir: Delman",
+                        "options": 
+                        [
+                            "A. Komandan : Tentara",
+                            "B. Kuda : Pedati",
+                            "C. Pilot : Helikopter",
+                            "D. Pramugari : Pesawat Terbang",
+                            "E. Kusir : Pilot"
+                        ]
+                    },
+                    {
+                        "question": "Ikan : Danau",
+                        "options": 
+                        [
+                            "A. Buku : Almari",
+                            "B. Burung : Sarang",
+                            "C. Rusa : Hutan",
+                            "D. TV : Toko Elektronik",
+                            "E. Semut : Gudang Gula"
+                        ]
+                    }
+                ]
+            },
+            "numerical": 
+            {
+                "questions": 
+                [
+                    {
+                        "question": "316 x 2,77 =",
+                        "options": 
+                        [
+                            "A. 875,32",
+                            "B. 87,532",
+                            "C. 875,23",
+                            "D. 875,532",
+                            "E. 876"
+                        ]
+                    },
+                    {
+                        "question": "Berapakah nilai 3/4 dibagi dengan 7/9?",
+                        "options": 
+                        [
+                            "A. 21/36",
+                            "B. 36/21",
+                            "C. 28/27",
+                            "D. 27/28",
+                            "E. 27/36"
+                        ]
+                    }
+                ]
+            },
+            "logic": 
+            {
+                "questions": 
+                [
+                    {
+                        "question": "Seluruh warga negara Indonesia berusia di atas 17 tahun wajib memiliki KTP.",
+                        "options": 
+                        [
+                            "A. Rinto wajib memiliki KTP juga karena meskipun baru berusia 16 tahun, dia adalah warga negara Indonesia yang telah dewasa.",
+                            "B. Bela sering pergi ke luar negeri, jadi meskipun warga negara Indonesia, dan berusia 20 tahun, dia tidak wajib memiliki KTP.",
+                            "C. Rini belum wajib memiliki KTP karena dia adalah warga negara Indonesia yang baru berusia 14 tahun.",
+                            "D. Pak Bejo berusia 40 tahun. Saat ini dia belum memiliki KTP, jadi pastilah bukan warga negara Indonesia.",
+                            "E. Karena sudah pensiun, Pak Ahmad tidak lagi wajib memiliki KTP."
+                        ]
+                    }
+                ]
+            },
+            "spasial": 
+            {
+                "title": "BAGIAN 4: TES SPASIAL",
+                "total_questions": 13,
+                "time_limit": "9 Menit",
+                "instructions": "Padanan Hubungan Gambar. Carilah padanan gambar sesuai dengan petunjuk gambar sebelumnya.",
+                "questions": 
+                [
+                    {
+                        "question_number": 1,
+                        "description": "Carilah padanan gambar berikut.",
+                        "image_placeholder": "[image]"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,522 @@
+{
+    "informasi_beasiswa": 
+    {
+        "Beasiswa_Jalur_Undangan_Prestasi_2025": 
+        {
+            "periode": "08 Juli – 30 November 2024",
+            "kategori": 
+            [
+                {
+                    "grade": "Star",
+                    "beasiswa": "100% DPP + 100% SPP + 100% SKS",
+                    "nilai": "91-100"
+                },
+                {
+                    "grade": "Diamond",
+                    "beasiswa": "100% DPP + 50% SPP",
+                    "nilai": "88-90"
+                },
+                {
+                    "grade": "Platinum",
+                    "beasiswa": "100% DPP",
+                    "nilai": "84-87"
+                },
+                {
+                    "grade": "Gold",
+                    "beasiswa": "75% DPP",
+                    "nilai": "81-83"
+                },
+                {
+                    "grade": "Silver",
+                    "beasiswa": "50% DPP",
+                    "nilai": "79-80"
+                },
+                {
+                    "grade": "Bronze",
+                    "beasiswa": "25% DPP",
+                    "nilai": "75-78"
+                }
+            ],
+            "persyaratan": 
+            [
+                "Rata-rata nilai rapor kelas XI semester 2 minimal 75",
+                "Lolos tes seleksi (berlaku untuk semua jurusan di semua kategori beasiswa)",
+                "Kategori Star dan Diamond wajib mengikuti tes seleksi khusus",
+                "Tidak berlaku untuk jurusan FK & FKG"
+            ],
+            "ketentuan": 
+            [
+                {
+                    "kategori": "Star",
+                    "IPS": "≥ 3.5"
+                },
+                {
+                    "kategori": "Diamond",
+                    "IPS": "≥ 3.25"
+                }
+            ],
+            "larangan": 
+            [
+                "Penerima beasiswa tidak diperkenankan pindah program studi"
+            ]
+        },
+        "Beasiswa_Jalur_Undangan_Prestasi_FK_FKG_2025": 
+        {
+            "periode": "08 Juli – 30 November 2024",
+            "kategori": 
+            [
+                {
+                    "grade": "Star",
+                    "FK": "Rp. 225.000.000,-",
+                    "FKG": "Rp. 100.000.000,-",
+                    "nilai": "91-100"
+                },
+                {
+                    "grade": "Diamond",
+                    "FK": "Rp. 150.000.000,-",
+                    "FKG": "Rp. 75.000.000,-",
+                    "nilai": "88-90"
+                },
+                {
+                    "grade": "Platinum",
+                    "FK": "Rp. 100.000.000,-",
+                    "FKG": "Rp. 50.000.000,-",
+                    "nilai": "84-87"
+                },
+                {
+                    "grade": "Gold",
+                    "FK": "Rp. 50.000.000,-",
+                    "FKG": "Rp. 25.000.000,-",
+                    "nilai": "81-83"
+                }
+            ],
+            "persyaratan": 
+            [
+                "Lolos tes seleksi (berlaku untuk semua jurusan di semua kategori beasiswa)"
+            ]
+        },
+        "Beasiswa_Kerjasama_2025": 
+        {
+            "periode": "08 Juli – 30 November 2024",
+            "kategori": 
+            [
+                {
+                    "grade": "Gold",
+                    "beasiswa": "75% DPP",
+                    "nilai": "81-100"
+                },
+                {
+                    "grade": "Silver",
+                    "beasiswa": "50% DPP",
+                    "nilai": "79-80"
+                },
+                {
+                    "grade": "Bronze",
+                    "beasiswa": "25% DPP",
+                    "nilai": "75-78"
+                }
+            ],
+            "persyaratan": 
+            [
+                "Rata-rata nilai rapor kelas XI semester 2 minimal 75",
+                "Lolos seleksi tes masuk (tes tulis dan wawancara)",
+                "Tidak berlaku untuk alumni sekolah kerjasama",
+                "Tidak berlaku untuk jurusan FK & FKG"
+            ]
+        },
+        "Beasiswa_Prestasi_Rapor_2025": 
+        {
+            "kategori": 
+            [
+                {
+                    "nilai_rapor": "84-100",
+                    "nilai_TPA": "> 70",
+                    "beasiswa": "75% DPP"
+                },
+                {
+                    "nilai_rapor": "81-83",
+                    "nilai_TPA": "> 65",
+                    "beasiswa": "50% DPP"
+                },
+                {
+                    "nilai_rapor": "79-80",
+                    "nilai_TPA": "> 60",
+                    "beasiswa": "25% DPP"
+                }
+            ],
+            "persyaratan": 
+            [
+                "Tidak perlu Tes Potensi Akademik (TPA) apabila memiliki nilai UTBK tahun 2023-2025",
+                "Jika tidak mengikuti UTBK maka wajib mengikuti TPA",
+                "Nilai terendah di antara nilai rapor atau nilai TPA yang menentukan",
+                "Tidak berlaku untuk jurusan FK & FKG"
+            ]
+        },
+        "Beasiswa_Influencer_2025": 
+        {
+            "kategori": 
+            [
+                {
+                    "kategori": "I",
+                    "followers_IG": ">15.000",
+                    "followers_Tiktok": ">20.000",
+                    "beasiswa": "100% DPP"
+                },
+                {
+                    "kategori": "II",
+                    "followers_IG": ">12.000",
+                    "followers_Tiktok": ">15.000",
+                    "beasiswa": "75% DPP"
+                },
+                {
+                    "kategori": "III",
+                    "followers_IG": ">10.000",
+                    "followers_Tiktok": ">10.000",
+                    "beasiswa": "50% DPP"
+                }
+            ],
+            "persyaratan": 
+            [
+                "Mengupload konten positif tentang UC sebanyak 2x di Instagram atau Tiktok",
+                "Tidak perlu Tes Potensi Akademik (TPA) jika melalui jalur kerjasama",
+                "Wajib mengikuti tes interview dengan tim Creative Content",
+                "Tidak berlaku untuk jurusan FK & FKG"
+            ],
+            "ketentuan_lain": 
+            [
+                "Calon mahasiswa wajib upload konten video positif tentang Universitas Ciputra Surabaya sebanyak 2x di akun media sosial selama periode seleksi",
+                "Bagi penerima beasiswa Influencer akun media sosial tidak boleh di private",
+                "Bagi penerima beasiswa Influencer kategori I, setelah menjadi mahasiswa wajib upload konten video positif tentang Universitas Ciputra Surabaya (sesuai arahan tim creative content UC) sebanyak 6x per semester di akun pribadi dan Universitas Ciputra Surabaya selama dua semester pertama",
+                "Bagi penerima beasiswa Influencer kategori I berhak mendapat cashback sebesar Rp 3.000.000 masing-masing di akhir semester 1 dan 2 dengan syarat: \n      - Wajib mempertahankan nilai IPK ≥ 3,00 selama 2 semester pertama di Universitas Ciputra Surabaya\n      - Bagi yang tidak dapat mempertahankan IPK ≥ 3,00 maka cashback di semester tersebut tidak berlaku\n      - Cashback diberikan di akhir semester (setelah mendapatkan nilai IPS Semester 1 dan 2)"
+            ]
+        },
+        "Beasiswa_Prestasi_Khusus_2025": 
+        {
+            "deskripsi": "Sebagai penghargaan kepada siswa SMA yang mendaftar menjadi calon mahasiswa Universitas Ciputra Surabaya yang memiliki prestasi di bidang akademik maupun non-akademik dan menjadi pemenang/juara setingkat Provinsi, Nasional, maupun Internasional.",
+            "kategori": 
+            [
+                {
+                    "nama": "Beasiswa Juara Nasional & Internasional",
+                    "beasiswa": "25% DPP – 100% DPP",
+                    "prestasi_kompetisi_yang_disarankan": 
+                    [
+                        "Kompetisi Matematika dan IPA Perguruan Tinggi (KNMIPA PT)",
+                        "Kompetisi Debat Bahasa Inggris & Bahasa Indonesia",
+                        "Kompetisi start up bisnis",
+                        "Kompetisi teknologi informasi dan komunikasi",
+                        "Kompetisi Art (juara solo (seriosa, dangdut, pop, keroncong), baca puisi, monolog, tari tradisional, modern dance, penulis lakon)",
+                        "Kompetisi membuat video/film kom pendek",
+                        "Kompetisi sport (Futsal, karate, taekwondo, silat, badminton, renang)",
+                        "Kompetisi E-Sport"
+                    ],
+                    "syarat": 
+                    [
+                        "Wajib ikut kompetisi Simkatmawa saat menjadi mahasiswa aktif UC"
+                    ]
+                },
+                {
+                    "nama": "Beasiswa Aktif Organisasi",
+                    "beasiswa": "50% DPP",
+                    "syarat": 
+                    [
+                        "Pernah menjabat sebagai Ketua/Wakil/Sekretaris/Bendahara di salah satu organisasi berikut: OSIS, PMR, Pramuka",
+                        "Melampirkan bukti dokumen berupa surat keterangan dari sekolah ke email pmb@ciputra.ac.id"
+                    ]
+                },
+                {
+                    "nama": "Beasiswa Prestasi Akademik & Non Akademik",
+                    "beasiswa": "25% DPP – 100% DPP",
+                    "syarat": 
+                    [
+                        "Mengajukan surat permohonan.",
+                        "Menyerahkan fotokopi sertifikat/piagam prestasi ke email pmb@ciputra.ac.id"
+                    ]
+                }
+            ]
+        },
+        "Beasiswa_Gap_Year": 
+        {
+            "deskripsi": "Hanya berlaku untuk alumni. Lulusan SMA maksimal 2 tahun (lulus SMA tahun 2023-2024).",
+            "ketentuan": 
+            [
+                "Tidak perlu Tes Potensi Akademik (TPA) apabila memiliki nilai UTBK tahun 2023-2025 (Jika tidak mengikuti UTBK maka harus mengikuti Tes TPA).",
+                "Penentuan besaran beasiswa dilihat dari nilai terkecil di antara nilai rapor atau nilai TPA.",
+                "Apabila nilai rapor atau TPA ada yang tidak memenuhi kategori minimal maka Beasiswa Gap Year tidak berlaku.",
+                "Beasiswa Gap Year berlaku untuk semua jurusan kecuali jurusan FK dan FKG."
+            ],
+            "skema_beasiswa": 
+            [
+                {
+                    "nilai_rapor": "84 – 100",
+                    "nilai_TPA": "> 70",
+                    "beasiswa": "75% DPP"
+                },
+                {
+                    "nilai_rapor": "81 – 83",
+                    "nilai_TPA": "> 65",
+                    "beasiswa": "50% DPP"
+                },
+                {
+                    "nilai_rapor": "79 – 80",
+                    "nilai_TPA": "> 60",
+                    "beasiswa": "25% DPP"
+                }
+            ]
+        },
+        "Beasiswa_Paduan_Suara": 
+        {
+            "deskripsi": "Sebagai penghargaan kepada siswa SMA yang mendaftar sebagai calon mahasiswa Universitas Ciputra yang memiliki prestasi di bidang Paduan Suara.",
+            "bentuk_beasiswa": "Potongan DPP (Uang Gedung) maksimal 50%",
+            "persyaratan": 
+            [
+                "Lolos seleksi tes masuk (tes tulis dan wawancara).",
+                "Lolos seleksi tes praktek Paduan Suara (bisa membaca not balok).",
+                "Mengajukan surat permohonan.",
+                "Fotokopi sertifikat pemenang lomba Paduan Suara (team)."
+            ],
+            "penentuan_beasiswa": "Besarnya beasiswa didasarkan pada rekomendasi pembina Unit Kegiatan Mahasiswa bersangkutan.",
+            "ketentuan": "Beasiswa ini tidak berlaku untuk jurusan FK & FKG."
+        },
+        "Beasiswa_Putra_Putri_Rohaniawan_Pengajar": 
+        {
+            "deskripsi": "Diberikan kepada putra/putri yang orang tuanya merupakan rohaniawan atau guru serta dosen pendidikan formal di Institusi/Lembaga pemerintah maupun swasta.",
+            "bentuk_beasiswa": "Potongan DPP (Uang Gedung) maksimal 50%",
+            "persyaratan": 
+            [
+                "Lolos seleksi tes masuk (tes tulis dan wawancara).",
+                "Menyerahkan copy Surat Keterangan (SK) Pengajar / Rohaniawan.",
+                "Mengajukan surat permohonan."
+            ],
+            "ketentuan": "Beasiswa ini tidak berlaku untuk jurusan FK & FKG."
+        },
+        "Beasiswa_Karyawan_Group_Ciputra": 
+        {
+            "deskripsi": "Diberikan kepada putra/putri dari karyawan yang bekerja di Grup Ciputra.",
+            "informasi": "Info beasiswa silahkan email ke pmb@ciputra.ac.id"
+        },
+        "Beasiswa_UC_People_Siblings": 
+        {
+            "deskripsi": "Beasiswa sebesar 75% DPP (tidak berlaku untuk FK-FKG).",
+            "persyaratan": 
+            [
+                "Memiliki saudara kandung alumni / mahasiswa aktif di UC.",
+                "Wajib melampirkan bukti dokumen berupa kartu keluarga, ijazah / Kartu Tanda Mahasiswa ke email pmb@ciputra.ac.id."
+            ],
+            "ketentuan": "Beasiswa tidak dapat diakumulasikan dengan beasiswa lainnya."
+        },
+        "Beasiswa_Basket": 
+        {
+            "deskripsi": "Sebagai penghargaan kepada siswa SMA yang mendaftar sebagai calon mahasiswa Universitas Ciputra yang memiliki prestasi di bidang olahraga basket.",
+            "bentuk_beasiswa": 
+            {
+                "Kategori_I": "100% DPP+SPP+SKS",
+                "Kategori_II": "100%DPP+100%SPP+50%SKS",
+                "Kategori_III": "100% DPP+50% SPP"
+            },
+            "persyaratan": 
+            [
+                "Wajib mendaftar sebagai mahasiswa baru Universitas Ciputra dan mengisi gform https://bit.ly/BEASISWAUCBASKET25 sebelum mengikuti tes.",
+                "Lolos seleksi tes praktek basket.",
+                "Lolos Tes Potensi Akademik (TPA), Studi Kasus, dan Wawancara.",
+                "Besarnya beasiswa didasarkan pada rekomendasi pembina Unit Kegiatan Mahasiswa bersangkutan."
+            ],
+            "ketentuan": 
+            [
+                "Tidak berlaku untuk jurusan Culinary Business, Hotel Tourism & Event Business, Kedokteran, & Kedokteran Gigi.",
+                "Beasiswa basket hanya berlaku selama masa studi S-1 yaitu 4 tahun atau 8 semester (masa studi normal).",
+                "Indeks Prestasi Semester (IPS) yang harus dicapai setiap semester adalah sebesar ≥ 2,25.",
+                "Jika ketentuan di atas tidak dipenuhi maka beasiswa akan dicabut dan semester selanjutnya diwajibkan membayar biaya kuliah sebagaimana yang berlaku bagi mahasiswa seangkatannya sampai studinya tuntas."
+            ]
+        },
+        "Jadwal_Tes_Praktek_Basket_2025": 
+        [
+            {
+                "hari": "Rabu",
+                "tanggal": "28 Agustus 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            },
+            {
+                "hari": "Kamis",
+                "tanggal": "29 Agustus 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            },
+            {
+                "hari": "Rabu",
+                "tanggal": "25 September 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            },
+            {
+                "hari": "Kamis",
+                "tanggal": "26 September 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            },
+            {
+                "hari": "Rabu",
+                "tanggal": "23 Oktober 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            },
+            {
+                "hari": "Kamis",
+                "tanggal": "24 Oktober 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            },
+            {
+                "hari": "Kamis",
+                "tanggal": "19 Desember 2024",
+                "jadwal": 
+                [
+                    {
+                        "waktu": "PK.17.00 – 19.00 WIB",
+                        "kategori": "Putra",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    },
+                    {
+                        "waktu": "PK.19.00 – 21.00 WIB",
+                        "kategori": "Putri",
+                        "tempat": "Lapangan Basket Universitas Ciputra Surabaya"
+                    }
+                ]
+            }
+        ],
+        "BEASISWA_ANAK_KEMBAR_2025": 
+        {
+            "description": "Beasiswa untuk anak kembar dengan ketentuan berbeda antara jurusan FK-FKG dan selain FK-FKG.",
+            "details": 
+            {
+                "FK_FKG": "Diskon DPP sebesar Rp 50.000.000",
+                "non_FK_FKG": "Beasiswa 100% DPP",
+                "requirements": "Berlaku jika anak kembar masuk di tahun PMB yang sama (PMB TA 2025/2026). Wajib melampirkan bukti dokumen berupa kartu keluarga.",
+                "note": "Beasiswa tidak dapat diakumulasikan dengan beasiswa lainnya."
+            }
+        },
+        "BEASISWA_SEKOLAH_GRUP_CIPUTRA_2025": 
+        {
+            "description": "Beasiswa untuk siswa yang berasal dari sekolah grup Ciputra.",
+            "details": 
+            {
+                "non_FK_FKG": "Beasiswa 100% DPP",
+                "additional_benefit": "Jika nilai POE kelas 11 semester 2 = A, maka mendapat diskon tambahan Rp 1.000.000 untuk SPP semester 1.",
+                "note": "Beasiswa tidak berlaku untuk FK-FKG."
+            }
+        },
+        "BEASISWA_PRESTASI_UNGGULAN_BPU_2025": 
+        {
+            "description": "Beasiswa Prestasi Unggulan untuk siswa SMA fresh graduate dan alumni SMA maksimal 2 tahun.",
+            "details": 
+            {
+                "eligibility": "Siswa SMA fresh graduate (lulus SMA tahun 2025) atau alumni SMA lulus 2023-2024.",
+                "procedure": 
+                {
+                    "step_1": "Calon mahasiswa melakukan pendaftaran online dengan kode voucher pendaftaran gratis.",
+                    "step_2": "Lolos Tes Potensi Akademik (TPA), Tes Studi Kasus dan Interview.",
+                    "step_3": "Mengumpulkan form beasiswa dan surat permohonan beasiswa."
+                },
+                "scholarship_categories": 
+                {
+                    "Saphire": "75% DPP + 75% SPP + 75% SKS",
+                    "Emerald": "75% DPP + 50% DPP + 50% SKS",
+                    "Ruby": "75% DPP + 50% SPP",
+                    "Gold": "75% DPP",
+                    "Silver": "50% DPP"
+                },
+                "note": "DPP = Dana Pembangunan dan Pengembangan, SPP = Sumbangan Pembinaan dan Pendidikan, SKS = Satuan Kredit Semester."
+            }
+        },
+        "BEASISWA_GEREJA_MAWAR_SHARON_2025": 
+        {
+            "description": "Beasiswa untuk jemaat Gereja Mawar Sharon.",
+            "details": 
+            {
+                "benefit": "Beasiswa sebesar 75% DPP",
+                "requirements": "Wajib mengirimkan foto/scan kartu jemaat GMS ke email pmb@ciputra.ac.id.",
+                "note": "Beasiswa tidak dapat diakumulasikan dengan beasiswa lainnya."
+            }
+        },
+        "BEASISWA_INDONESIA_TIMUR_FK_2025": 
+        {
+            "description": "Beasiswa Fakultas Kedokteran untuk siswa berprestasi dari Indonesia Timur.",
+            "details": 
+            {
+                "benefit": "100% DPP + SPP + ORI selama masa pendidikan.",
+                "requirements": 
+                {
+                    "GPA": "Indeks Prestasi Semester (IPS) ≥ 3.00 setiap semester.",
+                    "study_duration": "Menyelesaikan masa studi selama 6 tahun, mengikuti internship, dan kembali ke daerah asal setelah mendapat STR."
+                },
+                "note": "Beasiswa akan dicabut jika ketentuan tidak dipenuhi dan mahasiswa harus membayar biaya kuliah sesuai dengan ketentuan."
+            }
+        }
+    }
+}
