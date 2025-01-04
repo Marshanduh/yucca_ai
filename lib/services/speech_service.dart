@@ -6,7 +6,6 @@ import 'package:speech_to_text/speech_to_text.dart';
 class SpeechService {
   final SpeechToText _speechToText = SpeechToText();
   final String _typecastApiUrl = "https://typecast.ai/api/speak";
-  
   final String _typecastApiKey = "your_typecast_API_key"; // can't commit secret
 
   /// Maximum number of polling attempts
@@ -84,61 +83,60 @@ class SpeechService {
 
   /// Polls the V2 API until the audio is ready
   Future<String?> _pollForAudio(String speakId) async {
-  int attempts = 0;
+    int attempts = 0;
 
-  while (attempts < _maxPollingAttempts) {
-    try {
-      final v2Url = 'https://typecast.ai/api/speak/v2/$speakId';
-      print("Polling attempt ${attempts + 1} for audio at: $v2Url");
+    while (attempts < _maxPollingAttempts) {
+      try {
+        final v2Url = 'https://typecast.ai/api/speak/v2/$speakId';
+        print("Polling attempt ${attempts + 1} for audio at: $v2Url");
 
-      final response = await http.get(
-        Uri.parse(v2Url),
-        headers: {
-          'Authorization': 'Bearer $_typecastApiKey',
-          'Accept': 'application/json',
-        },
-      );
+        final response = await http.get(
+          Uri.parse(v2Url),
+          headers: {
+            'Authorization': 'Bearer $_typecastApiKey',
+            'Accept': 'application/json',
+          },
+        );
 
-      print("Poll response status: ${response.statusCode}");
+        print("Poll response status: ${response.statusCode}");
 
-      if (response.statusCode == 200) {
-        final responseData = json.decode(response.body);
-        print("Poll response data: $responseData");
+        if (response.statusCode == 200) {
+          final responseData = json.decode(response.body);
+          print("Poll response data: $responseData");
 
-        final result = responseData['result'];
-        final status = result['status'];
+          final result = responseData['result'];
+          final status = result['status'];
 
-        if (status == 'done') {
-          final audioUrl = result['audio_download_url'];
-          if (audioUrl != null && audioUrl.isNotEmpty) {
-            print("Audio is ready! URL: $audioUrl");
-            return audioUrl;
+          if (status == 'done') {
+            final audioUrl = result['audio_download_url'];
+            if (audioUrl != null && audioUrl.isNotEmpty) {
+              print("Audio is ready! URL: $audioUrl");
+              return audioUrl;
+            }
+          } else if (status == 'error') {
+            print(
+                "Error in audio generation: ${result['callback']['error_msg']}");
+            return null;
+          } else if (status == 'progress') {
+            print("Audio still generating... waiting");
+            await Future.delayed(Duration(milliseconds: _pollingDelay));
+            attempts++;
+            continue;
           }
-        } else if (status == 'error') {
-          print(
-              "Error in audio generation: ${result['callback']['error_msg']}");
-          return null;
-        } else if (status == 'progress') {
-          print("Audio still generating... waiting");
-          await Future.delayed(Duration(milliseconds: _pollingDelay));
-          attempts++;
-          continue;
         }
+
+        // If we get here, something unexpected happened
+        print("Unexpected response structure");
+        return null;
+      } catch (error) {
+        print("Error during polling: $error");
+        return null;
       }
-
-      // If we get here, something unexpected happened
-      print("Unexpected response structure");
-      return null;
-    } catch (error) {
-      print("Error during polling: $error");
-      return null;
     }
+
+    print("Polling timeout after $attempts attempts");
+    return null;
   }
-
-  print("Polling timeout after $attempts attempts");
-  return null;
-}
-
 
   /// Converts the given [text] to speech using Typecast API
   Future<void> speakWithTypecast(String text) async {

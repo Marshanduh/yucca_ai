@@ -9,7 +9,8 @@ class YuccaKnowledgeService {
   static final HtmlUnescape _unescape = HtmlUnescape();
 
   /// Load multiple JSON knowledge bases from assets and merge them.
-  static Future<Map<String, dynamic>> loadKnowledgeBases(List<String> assetPaths) async {
+  static Future<Map<String, dynamic>> loadKnowledgeBases(
+      List<String> assetPaths) async {
     Map<String, dynamic> mergedKnowledgeBase = {};
 
     for (String assetPath in assetPaths) {
@@ -20,7 +21,8 @@ class YuccaKnowledgeService {
         // Merge the content (you can adjust how you want to merge the knowledge)
         mergedKnowledgeBase.addAll(knowledgeBase);
       } catch (e) {
-        throw Exception('Failed to load JSON knowledge base from $assetPath: $e');
+        throw Exception(
+            'Failed to load JSON knowledge base from $assetPath: $e');
       }
     }
 
@@ -30,7 +32,8 @@ class YuccaKnowledgeService {
   /// Splits content into manageable chunks to handle token limits.
   static List<String> splitIntoChunks(String content, {int chunkSize = 2000}) {
     if (content.isEmpty) {
-      throw Exception('Knowledge base content is empty. Cannot split into chunks.');
+      throw Exception(
+          'Knowledge base content is empty. Cannot split into chunks.');
     }
 
     List<String> chunks = [];
@@ -49,12 +52,15 @@ class YuccaKnowledgeService {
     String cleaned = _unescape.convert(text);
 
     // Remove Markdown formatting like bold, italics, etc.
-    cleaned = cleaned.replaceAll(RegExp(r'(\*\*|\*|__|_)'), ''); // Removing **, *, __, _
-    cleaned = cleaned.replaceAll(RegExp(r'(```.*?```)', dotAll: true), ''); // Removing code blocks
+    cleaned = cleaned.replaceAll(
+        RegExp(r'(\*\*|\*|__|_)'), ''); // Removing **, *, __, _
+    cleaned = cleaned.replaceAll(
+        RegExp(r'(```.*?```)', dotAll: true), ''); // Removing code blocks
     cleaned = cleaned.replaceAll(RegExp(r'`.*?`'), ''); // Removing inline code
 
     // Remove any remaining stray characters (if needed)
-    cleaned = cleaned.replaceAll(RegExp(r'[^\x20-\x7E]'), ''); // Non-ASCII characters
+    cleaned =
+        cleaned.replaceAll(RegExp(r'[^\x20-\x7E]'), ''); // Non-ASCII characters
 
     return cleaned.trim();
   }
@@ -62,9 +68,8 @@ class YuccaKnowledgeService {
   /// Queries OpenAI with JSON knowledge and a user question.
   static Future<String> fetchResponseWithKnowledge(
       Map<String, dynamic> knowledgeBase, String question) async {
-    
-
-    final apiKey = "your_openAI_API_key"; // create your own key, bc I can't commit secret to the github repo
+    final apiKey =
+        "your_openAI_API_key"; // create your own key, bc I can't commit secret to the github repo
 
     if (apiKey.isEmpty) {
       throw Exception('API key is empty. Please provide a valid API key.');
@@ -110,7 +115,8 @@ Respond based on the provided JSON knowledge base about Universitas Ciputra, inc
           final data = json.decode(rawResponse);
 
           if (data.containsKey('choices') && data['choices'].isNotEmpty) {
-            final rawText = data['choices'][0]['message']['content'] ?? 'No response content found.';
+            final rawText = data['choices'][0]['message']['content'] ??
+                'No response content found.';
             // Clean and decode the response before returning
             return _cleanResponse(rawText);
           } else {
@@ -122,7 +128,8 @@ Respond based on the provided JSON knowledge base about Universitas Ciputra, inc
           print("Rate limit exceeded. Retrying in $waitTime seconds...");
           await Future.delayed(Duration(seconds: waitTime));
         } else {
-          throw Exception('Failed to fetch response. HTTP Status: ${response.statusCode}');
+          throw Exception(
+              'Failed to fetch response. HTTP Status: ${response.statusCode}');
         }
       } catch (e) {
         retryCount++;
@@ -133,17 +140,20 @@ Respond based on the provided JSON knowledge base about Universitas Ciputra, inc
       }
     }
 
-    throw Exception('Rate limit exceeded after $maxRetries retries. Please try again later.');
+    throw Exception(
+        'Rate limit exceeded after $maxRetries retries. Please try again later.');
   }
 
   /// Processes the JSON knowledge base and queries OpenAI.
-  static Future<String> processAndQuery(List<String> jsonPaths, String question) async {
+  static Future<String> processAndQuery(
+      List<String> jsonPaths, String question) async {
     try {
       print('Loading JSON knowledge base...');
       final knowledgeBase = await loadKnowledgeBases(jsonPaths);
 
       print('Querying OpenAI with the knowledge base...');
-      final response = await fetchResponseWithKnowledge(knowledgeBase, question);
+      final response =
+          await fetchResponseWithKnowledge(knowledgeBase, question);
 
       // Clean the response one final time before returning
       return _cleanResponse(response);
