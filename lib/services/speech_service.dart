@@ -6,7 +6,8 @@ import 'package:speech_to_text/speech_to_text.dart';
 class SpeechService {
   final SpeechToText _speechToText = SpeechToText();
   final String _typecastApiUrl = "https://typecast.ai/api/speak";
-  final String _typecastApiKey = "__pltXQdTBiaPRQssJCGwr7LHYgW5ABg8jrpymn6DYmVX"; // mine (marsha)
+  final String _typecastApiKey =
+      "__pltXQdTBiaPRQssJCGwr7LHYgW5ABg8jrpymn6DYmVX"; // mine (marsha)
 
   /// Maximum number of polling attempts
   static const int _maxPollingAttempts = 10;
@@ -246,9 +247,12 @@ class SpeechService {
       onError: (error) => print('Speech error: $error'),
     );
     if (available) {
-      _speechToText.listen(onResult: (result) {
-        onResult(result.recognizedWords);
-      });
+      _speechToText.listen(
+        onResult: (result) {
+          onResult(result.recognizedWords);
+        },
+        localeId: "id_ID",
+      );
     }
     return available;
   }
@@ -256,9 +260,12 @@ class SpeechService {
   /// Starts listening and passes the recognized words to the [onResult] callback
   void startListening(Function(String) onResult) {
     if (!_isListening) {
-      _speechToText.listen(onResult: (result) {
-        onResult(result.recognizedWords);
-      });
+      _speechToText.listen(
+        onResult: (result) {
+          onResult(result.recognizedWords);
+        },
+        localeId: "id_ID",
+      );
       _isListening = true;
     } else {
       print("Already listening.");
