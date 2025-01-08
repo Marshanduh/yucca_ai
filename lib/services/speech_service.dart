@@ -253,27 +253,9 @@ class SpeechService {
     );
 
     if (available) {
-      // Get available locales
-      _supportedLocales.clear();
-      _supportedLocales.addAll(await _speechToText.locales());
-
-      // Check if both English and Indonesian are supported
-      final hasEnglish =
-          _supportedLocales.any((locale) => locale.localeId.startsWith('en'));
-      final hasIndonesian =
-          _supportedLocales.any((locale) => locale.localeId.startsWith('id'));
-
-      print('English support: $hasEnglish');
-      print('Indonesian support: $hasIndonesian');
-
-      // Set up listening with language detection
-      _speechToText.listen(
-        onResult: (result) {
-          onResult(result.recognizedWords);
-        },
-        localeId: _currentLocale,
-        listenMode: ListenMode.confirmation,
-      );
+      _speechToText.listen(onResult: (result) {
+        onResult(result.recognizedWords);
+      });
     }
     return available;
   }
@@ -307,20 +289,10 @@ class SpeechService {
   /// Starts listening and passes the recognized words to the [onResult] callback
   Future<void> startListening(Function(String) onResult) async {
     if (!_isListening) {
-      try {
-        await _speechToText.listen(
-          onResult: (result) {
-            onResult(result.recognizedWords);
-          },
-          localeId: _currentLocale,
-          listenMode: ListenMode.confirmation,
-        );
-        _isListening = true;
-        print('Started listening in locale: $_currentLocale');
-      } catch (e) {
-        print('Error starting speech recognition: $e');
-        _isListening = false;
-      }
+      _speechToText.listen(onResult: (result) {
+        onResult(result.recognizedWords);
+      });
+      _isListening = true;
     } else {
       print("Already listening.");
     }
