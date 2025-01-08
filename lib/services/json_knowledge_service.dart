@@ -68,7 +68,7 @@ class YuccaKnowledgeService {
   /// Queries OpenAI with JSON knowledge and a user question.
   static Future<String> fetchResponseWithKnowledge(
       Map<String, dynamic> knowledgeBase, String question) async {
-    final apiKey = "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";
+    final apiKey = "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";
     
 
     if (apiKey.isEmpty) {
@@ -76,7 +76,7 @@ class YuccaKnowledgeService {
     }
 
     int retryCount = 0;
-    const maxRetries = 5;
+    const maxRetries = 1;
 
     while (retryCount < maxRetries) {
       try {
@@ -102,7 +102,7 @@ Knowledge Base: ${jsonEncode(knowledgeBase)}
 
 Question: $question
 
-Respond based on the provided JSON knowledge base about Universitas Ciputra, including courses, events, and campus facilities. Keep your response brief and casual. If the question is unrelated to the knowledge base, reply politely and avoid providing unrelated information.
+Respond based on the provided JSON knowledge base about Universitas Ciputra, including regulations, scholarships, and registration. Keep your response brief and casual. If the question is unrelated to the knowledge base, reply politely and avoid providing unrelated information.
 '''
               }
             ],
