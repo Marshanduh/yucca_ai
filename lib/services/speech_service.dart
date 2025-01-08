@@ -19,10 +19,6 @@ class SpeechService {
   final FlutterSoundPlayer _audioPlayer = FlutterSoundPlayer();
   bool _isPlayerInitialized = false;
 
-  // Add supported languages (Speech-to-text)
-  final List<LocaleName> _supportedLocales = [];
-  String _currentLocale = 'en_US'; // Default to English
-
   /// Initializes the player
   Future<void> initializePlayer() async {
     if (!_isPlayerInitialized) {
@@ -245,62 +241,35 @@ class SpeechService {
   }
 
   /// Initializes the speech-to-text service
-  // Initialize speech recognition with language support
   Future<bool> initialize({required Function(String) onResult}) async {
     bool available = await _speechToText.initialize(
       onStatus: (status) => print('Speech status: $status'),
       onError: (error) => print('Speech error: $error'),
     );
-
     if (available) {
-      _speechToText.listen(onResult: (result) {
-        onResult(result.recognizedWords);
-      });
+      _speechToText.listen(
+        onResult: (result) {
+          onResult(result.recognizedWords);
+        },
+        localeId: "id_ID",
+      );
     }
     return available;
   }
 
-  // Method to switch between languages
-  Future<bool> setLanguage(String languageCode) async {
-    // Convert language code to proper locale ID
-    String localeId;
-    switch (languageCode.toLowerCase()) {
-      case 'en':
-        localeId = 'en_US';
-        break;
-      case 'id':
-        localeId = 'id_ID';
-        break;
-      default:
-        localeId = 'en_US';
-    }
-
-    // Check if the locale is supported
-    final isSupported =
-        _supportedLocales.any((locale) => locale.localeId == localeId);
-    if (isSupported) {
-      _currentLocale = localeId;
-      return true;
-    }
-    print('Language $languageCode is not supported');
-    return false;
-  }
-
   /// Starts listening and passes the recognized words to the [onResult] callback
-  Future<void> startListening(Function(String) onResult) async {
+  void startListening(Function(String) onResult) {
     if (!_isListening) {
-      _speechToText.listen(onResult: (result) {
-        onResult(result.recognizedWords);
-      });
+      _speechToText.listen(
+        onResult: (result) {
+          onResult(result.recognizedWords);
+        },
+        localeId: "id_ID",
+      );
       _isListening = true;
     } else {
       print("Already listening.");
     }
-  }
-
-  // Get current list of supported languages
-  List<LocaleName> getSupportedLanguages() {
-    return _supportedLocales;
   }
 
   /// Stops the speech-to-text listening
